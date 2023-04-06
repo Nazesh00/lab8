@@ -1,0 +1,68 @@
+header {
+    display: block;
+    height: 100px;
+    background: rgb(5, 241, 249);
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    margin: 0;
+}
+
+.button-3 {
+    margin-top: 50px;
+    appearance: none;
+    background-color: #68a7d1;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.main {
+    margin: 100px auto;
+    padding: 20px 100px;
+    width: 1100px;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.question {
+    margin-top: 40px;
+    background: #68a7d1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.question label {
+    border-radius: 5px;
+    padding: 10px;
+    border: rgb(246, 246, 246) solid 1px;
+    margin: 0 20px;
+}
+
+.question label:hover {
+    background: gainsboro;
+}
+
+p {
+    font-weight: bold;
+}
